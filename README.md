@@ -6,6 +6,9 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.51+-red.svg)](https://streamlit.io/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-green.svg)](https://fastapi.tiangolo.com/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-StockSense--AI-brightgreen.svg)](https://stocksense-ai-ulabs.streamlit.app/)
+
+**🔗 Live Demo: [https://stocksense-ai-ulabs.streamlit.app/](https://stocksense-ai-ulabs.streamlit.app/)**
 
 StockSense-AI is a production-ready machine learning system that helps retail businesses predict future sales, optimize inventory levels, and make data-driven decisions. Built with Python, it combines multiple forecasting models with an interactive dashboard and RESTful API.
 
@@ -62,6 +65,8 @@ StockSense-AI is a production-ready machine learning system that helps retail bu
 ---
 
 ## Demo
+
+**🔗 Try it now: [https://stocksense-ai-ulabs.streamlit.app/](https://stocksense-ai-ulabs.streamlit.app/)**
 
 ### Dashboard Interface
 
@@ -157,7 +162,11 @@ pip install -r requirements.txt
 
 ## Quick Start
 
-### Option 1: Run the Dashboard (Recommended)
+### Option 1: Try the Live Demo (Easiest)
+
+Visit the live deployment: **[https://stocksense-ai-ulabs.streamlit.app/](https://stocksense-ai-ulabs.streamlit.app/)**
+
+### Option 2: Run the Dashboard Locally
 
 ```bash
 streamlit run src/dashboard/app.py
@@ -165,7 +174,7 @@ streamlit run src/dashboard/app.py
 
 Open http://localhost:8501 in your browser.
 
-### Option 2: Run the API
+### Option 3: Run the API
 
 ```bash
 uvicorn src.api.main:app --reload
@@ -173,7 +182,7 @@ uvicorn src.api.main:app --reload
 
 API available at http://localhost:8000. Documentation at http://localhost:8000/docs.
 
-### Option 3: Run the Pipeline (CLI)
+### Option 4: Run the Pipeline (CLI)
 
 ```bash
 python main.py
@@ -510,6 +519,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Built with modern Python ML/Data stack
 - Inspired by real-world retail forecasting challenges
 - Thanks to the open-source community for the amazing libraries
+
+---
+
+## Live Deployment
+
+The application is deployed and accessible at:
+
+**🔗 [https://stocksense-ai-ulabs.streamlit.app/](https://stocksense-ai-ulabs.streamlit.app/)**
 
 ---
 
